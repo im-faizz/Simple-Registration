@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" charset="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>SimpleRegistration</title>
+    </head>
+    <form>
+    <body>
+        <header>
+            <h1>Registration form</h1>
+            <p>Fill it properly</p>
+        </header>
+        <fieldset>
+            <label>First name: <input type="text" name="NamaAwal" required></label>
+            <label>Last name: <input type="text" name="NamaAkhir" placeholder="Optional"></label>
+            <label>Age: <input type="number" name="umur" placeholder="Min 13" min="
+                13" max="60" required> </label>
+            <label>Email: <input type="email" name="email" required></label>
+            <label>Password: <input type="password" name="password" required></label>
+        </fieldset>
+        <fieldset>
+            <label>Your photo: <input type="file" name="foto"> </label>
+            <label>Where you find this website: 
+                <select>
+                    <option>Choose one</option>
+                    <option>tes</option>
+                    <option>tes2</option>
+                    <option>tes3</option>
+                    <option>tes4</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label> <input type="radio" class="inline"> agree <a href="www.testing.com">Terms and conditions</a> </label>
+        </fieldset>
+        <fieldset>
+            Your Opinion About This Website:
+            <textarea rows="3" cols="30" placeholder="(Optional)"></textarea>        
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+    </body>
+
+
+</html>
