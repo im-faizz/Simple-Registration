@@ -10,6 +10,7 @@ h1, p {
 input {
     display: flex;
     background-color: rgb(41, 36, 36);    
+    color: white;
 }
 label {
     display: block;
